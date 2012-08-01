@@ -1,0 +1,11 @@
+{
+  "name": "Better Kanbanflow",
+  "version": "0.1",
+  "description": "improves kanbanflow",
+  "content_scripts": [
+    {
+      "matches": ["http://kanbanflow.com/board/*", "https://kanbanflow.com/board/*"],
+      "js": ["jquery-1.7.2.min.js", "better-kanbanflow.js"]
+    }
+  ]
+}
